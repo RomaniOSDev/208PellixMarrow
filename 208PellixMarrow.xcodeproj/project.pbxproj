@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080556D5AA9AAD2D1DBC91BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B562487C90FD07E1D8BB16 /* ContentView.swift */; };
+		1093D52477851BEBCD79990F /* PmxHouseRulePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224B29545B739B9D5A70A8C /* PmxHouseRulePane.swift */; };
+		15086F37FAD6670ECC395B77 /* PmxParchmentGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12A9D1456A91EAB3E0991B /* PmxParchmentGate.swift */; };
+		15B26B18FF8116687962E9FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3044B47E77E8F5405887A2B0 /* SceneDelegate.swift */; };
+		1D9B763404AE5EEF66CA29D5 /* PmxArchivePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E989970DD86F072C8BBD4 /* PmxArchivePane.swift */; };
+		376D3A4FC5BAD1FF2E4E60A6 /* PmxFeltOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4C05AC61D36EABDBE5B04 /* PmxFeltOrbit.swift */; };
+		4BCA206E90014F8652DC9300 /* PmxCurtainIntroPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788568BEC99F54C6B91A370 /* PmxCurtainIntroPane.swift */; };
+		5305D66E453DF6B20B6A7991 /* PmxTurnWheelPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA55AB66E32DAD15518E32 /* PmxTurnWheelPane.swift */; };
+		72324FC59FD710F045D7F2A1 /* PmxTableVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67098E28FCF8110855B1355E /* PmxTableVault.swift */; };
+		7DCC16BF4861BA8E36E6A1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B98A50391F35918661D5519 /* Assets.xcassets */; };
+		7DE32F45E50B5BBD0F2EB09F /* PmxShelfPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B811C852984ECAC4DC0523E /* PmxShelfPane.swift */; };
+		9F2924E578B38FE03CBC4D4F /* PmxPreferencePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EE06F0989167D05A4935D /* PmxPreferencePane.swift */; };
+		A1C795A4D74ED53F7ADCD639 /* PmxTableModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F911C3568DEEECDE9CF694 /* PmxTableModels.swift */; };
+		A1D3487446258E81831F83D8 /* PmxWeekHostPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3854B669D140E9E30BA09C /* PmxWeekHostPane.swift */; };
+		A90E53454C8549FCE5761CEE /* PmxScorePadPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF659A1C8ACC1EC0193809 /* PmxScorePadPane.swift */; };
+		C9E84A12D6B703F54A91E8C0 /* PmxMarrowLoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C31E90B4D25F6180E2C4AB /* PmxMarrowLoom.swift */; };
+		D0D4F450E1A3B2E9375177EE /* PmxOrbitParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC77E81399F20E61BDCA6B /* PmxOrbitParser.swift */; };
+		D58A9EAF9AC15496FD80B51B /* PmxChromaKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998E63E5CD12E5E7BBBAEA2F /* PmxChromaKit.swift */; };
+		DF9778DDBF2CFB521AABD712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90C5C6DCF57C81B6A8C9B50 /* Main.storyboard */; };
+		F498B6914F619A819EDE4D7F /* PmxTonightLobbyPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DAF18C62E7DB3AB9414D3F /* PmxTonightLobbyPane.swift */; };
+		F7498280D249625DF9DB11DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E076080E51378CCE0B7649 /* AppDelegate.swift */; };
+		FD25A337678C8AF02E03D9D0 /* PmxRailShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B474D091DE6BDFD61E20174 /* PmxRailShell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112E989970DD86F072C8BBD4 /* PmxArchivePane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxArchivePane.swift; sourceTree = "<group>"; };
+		2BF4C05AC61D36EABDBE5B04 /* PmxFeltOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxFeltOrbit.swift; sourceTree = "<group>"; };
+		3044B47E77E8F5405887A2B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31DAF18C62E7DB3AB9414D3F /* PmxTonightLobbyPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxTonightLobbyPane.swift; sourceTree = "<group>"; };
+		35AC77E81399F20E61BDCA6B /* PmxOrbitParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxOrbitParser.swift; sourceTree = "<group>"; };
+		373EE06F0989167D05A4935D /* PmxPreferencePane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxPreferencePane.swift; sourceTree = "<group>"; };
+		49AF659A1C8ACC1EC0193809 /* PmxScorePadPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxScorePadPane.swift; sourceTree = "<group>"; };
+		4B98A50391F35918661D5519 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5409763629B77EA8FA8059E3 /* 208PellixMarrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 208PellixMarrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E076080E51378CCE0B7649 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67098E28FCF8110855B1355E /* PmxTableVault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxTableVault.swift; sourceTree = "<group>"; };
+		6B811C852984ECAC4DC0523E /* PmxShelfPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxShelfPane.swift; sourceTree = "<group>"; };
+		89B562487C90FD07E1D8BB16 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D3854B669D140E9E30BA09C /* PmxWeekHostPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxWeekHostPane.swift; sourceTree = "<group>"; };
+		93F911C3568DEEECDE9CF694 /* PmxTableModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxTableModels.swift; sourceTree = "<group>"; };
+		998E63E5CD12E5E7BBBAEA2F /* PmxChromaKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxChromaKit.swift; sourceTree = "<group>"; };
+		9B474D091DE6BDFD61E20174 /* PmxRailShell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxRailShell.swift; sourceTree = "<group>"; };
+		A7C31E90B4D25F6180E2C4AB /* PmxMarrowLoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxMarrowLoom.swift; sourceTree = "<group>"; };
+		AECA55AB66E32DAD15518E32 /* PmxTurnWheelPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxTurnWheelPane.swift; sourceTree = "<group>"; };
+		B788568BEC99F54C6B91A370 /* PmxCurtainIntroPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxCurtainIntroPane.swift; sourceTree = "<group>"; };
+		B8032CBB2292D314EF314629 /* Pods-208PellixMarrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-208PellixMarrow.debug.xcconfig"; path = "Target Support Files/Pods-208PellixMarrow/Pods-208PellixMarrow.debug.xcconfig"; sourceTree = "<group>"; };
+		C224B29545B739B9D5A70A8C /* PmxHouseRulePane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxHouseRulePane.swift; sourceTree = "<group>"; };
+		D2BB6D85ADA63CB48EC2185B /* Pods-208PellixMarrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-208PellixMarrow.release.xcconfig"; path = "Target Support Files/Pods-208PellixMarrow/Pods-208PellixMarrow.release.xcconfig"; sourceTree = "<group>"; };
+		D90C5C6DCF57C81B6A8C9B50 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DC12A9D1456A91EAB3E0991B /* PmxParchmentGate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PmxParchmentGate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838D56C420AA64EC0D1A3D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF909297ABD59B449D9D2AD /* 208PellixMarrow */ = {
+			isa = PBXGroup;
+			children = (
+				995CED183CA753A216AE7236 /* App */,
+				5CA80CDAD6A5E47720B0BA30 /* Storage */,
+				DA7D8DD8C2F9D5112D998F9D /* Screens */,
+				EAD405D5B5ADCF0F2134A2D4 /* Theme */,
+				2BEDBE78CFF51CDAAB8D241F /* Gate */,
+				8B597C6ED0A6650289DCB582 /* Domain */,
+				72B74277BDE32CB461416C4C /* Resources */,
+			);
+			path = 208PellixMarrow;
+			sourceTree = "<group>";
+		};
+		281F09E78024A9B5640ED7B5 /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				9B474D091DE6BDFD61E20174 /* PmxRailShell.swift */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		2BEDBE78CFF51CDAAB8D241F /* Gate */ = {
+			isa = PBXGroup;
+			children = (
+				DC12A9D1456A91EAB3E0991B /* PmxParchmentGate.swift */,
+			);
+			path = Gate;
+			sourceTree = "<group>";
+		};
+		307046C2A5BAF39690C5F5EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5409763629B77EA8FA8059E3 /* 208PellixMarrow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E2BEAEC619165503C28053C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBF6505E2F9FD8FD819E3026 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		577D1F2A742B877D222A4B9B /* Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				AECA55AB66E32DAD15518E32 /* PmxTurnWheelPane.swift */,
+			);
+			path = Wheel;
+			sourceTree = "<group>";
+		};
+		5A952212B018E7C58BAFCEC4 /* Pad */ = {
+			isa = PBXGroup;
+			children = (
+				49AF659A1C8ACC1EC0193809 /* PmxScorePadPane.swift */,
+			);
+			path = Pad;
+			sourceTree = "<group>";
+		};
+		5CA80CDAD6A5E47720B0BA30 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				67098E28FCF8110855B1355E /* PmxTableVault.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		700B03A492108F053C8CD4FE /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D90C5C6DCF57C81B6A8C9B50 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		72B74277BDE32CB461416C4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B98A50391F35918661D5519 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73E0588604C1244A9B879395 /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				8D3854B669D140E9E30BA09C /* PmxWeekHostPane.swift */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
+		7F85A320370E3C9AA3587D1F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B788568BEC99F54C6B91A370 /* PmxCurtainIntroPane.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8B597C6ED0A6650289DCB582 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				93F911C3568DEEECDE9CF694 /* PmxTableModels.swift */,
+				A7C31E90B4D25F6180E2C4AB /* PmxMarrowLoom.swift */,
+				35AC77E81399F20E61BDCA6B /* PmxOrbitParser.swift */,
+				2BF4C05AC61D36EABDBE5B04 /* PmxFeltOrbit.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8BEF6AEC00EDF92ADEDDA5B8 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				112E989970DD86F072C8BBD4 /* PmxArchivePane.swift */,
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		995CED183CA753A216AE7236 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				59E076080E51378CCE0B7649 /* AppDelegate.swift */,
+				3044B47E77E8F5405887A2B0 /* SceneDelegate.swift */,
+				700B03A492108F053C8CD4FE /* Base.lproj */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A7158B3F297B5DF78B017B3D /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				6B811C852984ECAC4DC0523E /* PmxShelfPane.swift */,
+			);
+			path = Shelf;
+			sourceTree = "<group>";
+		};
+		AF22D32F1274341EBC31D282 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2BB6D85ADA63CB48EC2185B /* Pods-208PellixMarrow.release.xcconfig */,
+				B8032CBB2292D314EF314629 /* Pods-208PellixMarrow.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3925CB7D1BE99022FF0EC11 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				373EE06F0989167D05A4935D /* PmxPreferencePane.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		BBF6505E2F9FD8FD819E3026 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C67CE03000914FFA32537F8E /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				C224B29545B739B9D5A70A8C /* PmxHouseRulePane.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		D3A7482A3DBE35D60020AE4C /* Tonight */ = {
+			isa = PBXGroup;
+			children = (
+				31DAF18C62E7DB3AB9414D3F /* PmxTonightLobbyPane.swift */,
+			);
+			path = Tonight;
+			sourceTree = "<group>";
+		};
+		DA7D8DD8C2F9D5112D998F9D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B3925CB7D1BE99022FF0EC11 /* Preferences */,
+				73E0588604C1244A9B879395 /* Week */,
+				8BEF6AEC00EDF92ADEDDA5B8 /* Archive */,
+				281F09E78024A9B5640ED7B5 /* Shell */,
+				577D1F2A742B877D222A4B9B /* Wheel */,
+				5A952212B018E7C58BAFCEC4 /* Pad */,
+				D3A7482A3DBE35D60020AE4C /* Tonight */,
+				C67CE03000914FFA32537F8E /* Rules */,
+				A7158B3F297B5DF78B017B3D /* Shelf */,
+				89B562487C90FD07E1D8BB16 /* ContentView.swift */,
+				7F85A320370E3C9AA3587D1F /* Onboarding */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E37284095D718C016190817C = {
+			isa = PBXGroup;
+			children = (
+				307046C2A5BAF39690C5F5EB /* Products */,
+				4E2BEAEC619165503C28053C /* Frameworks */,
+				0DF909297ABD59B449D9D2AD /* 208PellixMarrow */,
+				AF22D32F1274341EBC31D282 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD405D5B5ADCF0F2134A2D4 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				998E63E5CD12E5E7BBBAEA2F /* PmxChromaKit.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB977098904E46234218DDB /* 208PellixMarrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18374CA6A1628760AF722E7 /* Build configuration list for PBXNativeTarget "208PellixMarrow" */;
+			buildPhases = (
+				AE2F5669CC4BFD3DC8D53EFB /* [CP] Check Pods Manifest.lock */,
+				D4E5E10CEB3D49CE6238CD43 /* Sources */,
+				838D56C420AA64EC0D1A3D88 /* Frameworks */,
+				485B3E0E97902AE0FB25C115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 208PellixMarrow;
+			productName = 208PellixMarrow;
+			productReference = 5409763629B77EA8FA8059E3 /* 208PellixMarrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB41DDDAAC23853265539CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 0175495C7467A7E774DC2B38 /* Build configuration list for PBXProject "208PellixMarrow" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E37284095D718C016190817C;
+			productRefGroup = 307046C2A5BAF39690C5F5EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB977098904E46234218DDB /* 208PellixMarrow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485B3E0E97902AE0FB25C115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9778DDBF2CFB521AABD712 /* Main.storyboard in Resources */,
+				7DCC16BF4861BA8E36E6A1CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE2F5669CC4BFD3DC8D53EFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-208PellixMarrow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E5E10CEB3D49CE6238CD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7498280D249625DF9DB11DA /* AppDelegate.swift in Sources */,
+				15B26B18FF8116687962E9FC /* SceneDelegate.swift in Sources */,
+				72324FC59FD710F045D7F2A1 /* PmxTableVault.swift in Sources */,
+				9F2924E578B38FE03CBC4D4F /* PmxPreferencePane.swift in Sources */,
+				A1D3487446258E81831F83D8 /* PmxWeekHostPane.swift in Sources */,
+				1D9B763404AE5EEF66CA29D5 /* PmxArchivePane.swift in Sources */,
+				FD25A337678C8AF02E03D9D0 /* PmxRailShell.swift in Sources */,
+				5305D66E453DF6B20B6A7991 /* PmxTurnWheelPane.swift in Sources */,
+				A90E53454C8549FCE5761CEE /* PmxScorePadPane.swift in Sources */,
+				F498B6914F619A819EDE4D7F /* PmxTonightLobbyPane.swift in Sources */,
+				1093D52477851BEBCD79990F /* PmxHouseRulePane.swift in Sources */,
+				7DE32F45E50B5BBD0F2EB09F /* PmxShelfPane.swift in Sources */,
+				080556D5AA9AAD2D1DBC91BD /* ContentView.swift in Sources */,
+				4BCA206E90014F8652DC9300 /* PmxCurtainIntroPane.swift in Sources */,
+				D58A9EAF9AC15496FD80B51B /* PmxChromaKit.swift in Sources */,
+				15086F37FAD6670ECC395B77 /* PmxParchmentGate.swift in Sources */,
+				A1C795A4D74ED53F7ADCD639 /* PmxTableModels.swift in Sources */,
+				C9E84A12D6B703F54A91E8C0 /* PmxMarrowLoom.swift in Sources */,
+				D0D4F450E1A3B2E9375177EE /* PmxOrbitParser.swift in Sources */,
+				376D3A4FC5BAD1FF2E4E60A6 /* PmxFeltOrbit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04C4FC016F627D95EC50B8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		63CAB925D94F7F62D7977C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8032CBB2292D314EF314629 /* Pods-208PellixMarrow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 208PellixMarrow/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stalx Marrow";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pai.st7lxm4rr9w;
+				PRODUCT_MODULE_NAME = PellixMarrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8BFF267D3E81E6A9EC72969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BB6D85ADA63CB48EC2185B /* Pods-208PellixMarrow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 208PellixMarrow/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stalx Marrow";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pai.st7lxm4rr9w;
+				PRODUCT_MODULE_NAME = PellixMarrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F335347DD4FBCB6E5D9BA3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0175495C7467A7E774DC2B38 /* Build configuration list for PBXProject "208PellixMarrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F335347DD4FBCB6E5D9BA3E0 /* Debug */,
+				04C4FC016F627D95EC50B8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18374CA6A1628760AF722E7 /* Build configuration list for PBXNativeTarget "208PellixMarrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFF267D3E81E6A9EC72969D /* Release */,
+				63CAB925D94F7F62D7977C7C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB41DDDAAC23853265539CC /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_208PellixMarrow {
+  umbrella header "Pods-208PellixMarrow-umbrella.h"
+
+  export *
+  module * { export * }
+}
